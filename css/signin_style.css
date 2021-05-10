@@ -1,0 +1,216 @@
+/* The video */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content{
+    position: fixed;
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    margin-top: 54px;
+    margin-left: -90px;
+
+}
+.content h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Aclonica';
+    font-size: 60px;
+}
+@-webkit-keyframes content {
+    from { bottom:-100px; opacity:0 }
+    to { bottom:0px; opacity:1 }
+}
+
+@keyframes content {
+    from{ bottom:-100px; opacity:0 }
+    to{ bottom:0; opacity:1 }
+}
+
+
+.button {
+    border-radius: 10%;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #3498db;
+    text-align: center;
+    cursor: pointer;
+    width: 12%;
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: 25px;
+}
+
+.button:hover {
+    background-color: #555;
+}
+.hg{
+    margin-left: 580px;
+}
+
+
+/* SignIn form */
+/* Full-width input fields */
+.modal-content1 input[type=text], input[type=password] {
+    width: 96%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.modal-content1 button {
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+    opacity: 0.9;
+}
+
+.modal-content1 button:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn1 {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+
+.container1 {
+    padding: 16px;
+}
+
+.modal-content1 span.psw {
+    float: left;
+    margin-top: -20px;
+
+}
+
+/* The Modal (background) */
+.modal1 {
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    color: black;
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content1 {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 40%; /* Could be more or less, depending on screen size */
+
+}
+
+/* The Close Button (x) */
+.close1 {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.close1:hover,
+.close1:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn1 {
+        width: 100%;
+    }
+}
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn1 {
+    float: right;
+    width: 50%;
+    margin-top: -86px;
+    background: red;
+
+}
+/* Set a style for all buttons */
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+
+.footer{
+    text-transform:capitalize;
+    margin-top: 136px;
+    margin-left: -160px;
+    font-size: 30px;
+}
+.error{
+    color: goldenrod;
+    text-transform: capitalize;
+}
+a{
+    text-decoration: none;
+}

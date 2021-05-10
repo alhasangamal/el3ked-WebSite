@@ -1,0 +1,102 @@
+body, html {
+    height: 100%;
+}
+
+
+/* The video */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container{
+
+    position: relative;
+
+    color: #f1f1f1;
+    width: 35%;
+
+    margin-left: 390px;
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    height: 1000px;
+    z-index: 2;
+
+}
+.container h1,p{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* Full-width inputs */
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid ;
+    box-sizing: border-box;
+}
+
+.footer{
+    text-transform:capitalize;
+    padding-top: 220px;
+}
+.footer span{
+    color: goldenrod;
+}
+.error{
+    color: goldenrod;
+    text-transform: capitalize;
+}
+.btm{
+    padding-top: 25px;
+}
+.footer a{
+
+    text-decoration: none;
+    color: goldenrod;
+}
+/* Validation Password */
+/* The message box is shown when the user clicks on the password field */
+#message {
+    display:none;
+    background: #f1f1f1;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+#message p {
+    padding: 10px 35px;
+    font-size: 18px;
+
+}
+
+/* Add a green text color and a checkmark when the requirements are right */
+.valid {
+    color: green;
+}
+
+.valid:before {
+    position: relative;
+    left: -35px;
+    content: "✔";
+}
+
+/* Add a red text color and an "x" icon when the requirements are wrong */
+.invalid {
+    color: red;
+}
+
+.invalid:before {
+    position: relative;
+    left: -35px;
+    content: "✖";
+}
